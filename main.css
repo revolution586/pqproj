@@ -158,3 +158,155 @@ a:active {
 	width: auto;
 	color: #999;
 }
+
+// Reset and re style link of each child items //
+#menu li:hover ul li a,
+#menu ul li a
+{
+	line-height: 200%;
+	display:block;
+	padding: 0 6px 0 4px;
+	float: none;
+	text-transform: capitalize;
+	color: #000000;
+	background: #ffffff;
+}
+
+#menu li:hover ul li a:hover,
+#menu ul li a:hover
+{
+	background: #FFFFFF;
+	color: #000;
+	text-decoration: underline;
+}
+
+#menu_table { 
+	border-collapse:collapse;
+	border: 0px;
+	width: 1200px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+#right { 
+	float: right;
+	width: 210px;
+	border: 0px;
+	background-color: #FFFFFF;
+	text-align: center;
+	border-left: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+
+article {
+	width: 900px;
+	color: #000;
+	padding-left: 60px;
+	padding-right: 30px;
+	text-align: left;
+}
+
+p { text-indent: 30pt; }
+
+.episode_arrow {
+	max-height: 15px;
+	max-width: 15px;
+	margin-botton: -2px;
+}
+
+.ASOT_image { 
+	text-align: center; }
+#info_table { 
+	border: 0px;
+	width: 900px;
+	
+}
+#info_table_spotify { 
+	width: 160px;
+	text-align:center;
+}
+
+#ASOT_notice { 
+	width: 400px;
+	border: #8C1717 dotted 2px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+#afterPlayback {
+	border: 1px solid #000;
+	width: 335px;
+	margin: auto;
+}
+
+#reddit { vertical-align: bottom; }
+
+ol hr { 
+	border-top:1px solid #000000;
+	width: 500px;
+	text-align:left;
+	margin-left: -10px;
+}
+
+#search_episode { padding: 0px 0px 5px 0px;
+}
+
+#search_result { padding-bottom: 5px;
+	padding-left:15px;
+}
+
+#search_hr {
+	width: 500px;
+	color: #666;
+	background-color: #666;
+	border:none;
+	height:1px;
+}
+
+#search_area { 
+	width: 500px;
+	background-color: #FFF;
+	border: 1px solid #000;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#links {
+	padding-left: 50px;
+}
+
+#quote {
+	width: 600px;
+	margin: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align:left;
+	padding: 10px;
+	border: 1px solid #333333;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+#quote p
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-indent: 0px;
+}
+
+#synopsis {
+	width: 700px;
+}
+	
